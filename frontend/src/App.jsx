@@ -6,7 +6,7 @@ import BookingSummary from './components/BookingSummary';
 import MyBookings from './components/MyBookings';
 import './index.css';
 
-const API_BASE_URL = 'http://localhost:5000/api/seats';
+const API_BASE_URL = 'https://ticketsbookings.onrender.com/api/seats';
 
 function App() {
   const [seats, setSeats] = useState([]);
